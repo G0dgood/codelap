@@ -1,0 +1,172 @@
+ 
+  input{ 
+  width: 100%;
+  outline: none;
+  margin-top: 3px;
+  border-radius: 5px;
+border: 1px solid rgba(0, 0, 0, 0.2); 
+  font-size: 16px; 
+  transition: all 0.3s ease; 
+  border-radius: 8px;
+  background: #FFFFFF;
+  font-style: normal;
+font-weight: 500 !important;
+font-size: 16px;
+line-height: 24px;
+color: var(--black);
+padding: 12px 20px;
+}
+
+ 
+/* Additional styling for focus state */
+input:focus {
+  outline: none;
+  border-color: var(--accent-blue) !important;  
+  box-shadow: 0 0 5px var(--accent-blue-light) !important;  
+}
+
+
+input :hover{ 
+  border: 1px solid var(--accent-blue-soft) !important; 
+}
+ 
+/* button */
+.btn{
+background-color: var(--accent-blue);
+border: 2px solid var(--accent-blue) !important;  
+color: var(--white) !important; 
+border-radius: 7.70833px !important;  
+font-style: normal !important;
+font-weight: 500 !important;
+font-size: 12px !important;
+line-height: 17px !important; 
+display: flex;
+align-items: center;
+text-align: center; 
+white-space: nowrap; 
+border: none ;
+outline: none ;
+padding: 9px   20px;
+cursor: pointer; 
+}
+ 
+ 
+ 
+.btn:hover { 
+border: 2px solid var(--accent-blue) ;  
+background-color: var(--accent-blue-light);
+color: var(--accent-blue) !important; 
+}
+ 
+
+ 
+ 
+ Select{
+width: 100%;
+outline: none;
+margin-top: 3px;
+border-radius: 5px;
+border: 1px solid rgba(0, 0, 0, 0.2);
+font-size: 16px; 
+transition: all 0.3s ease; 
+border-radius: 8px;
+background: var(--white);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: rgba(0, 0, 0, 0.5);
+padding: 12px 20px;
+}
+Select:focus {
+  outline: none;
+  border-color: var(--accent-blue);  
+  box-shadow: 0 0 5px var(--accent-blue-light);  
+}
+
+Select :hover{ 
+  border: 1px solid var(--accent-blue-light) !important; 
+}
+ textarea{
+  width: 100%;
+  outline: none;
+  margin-top: 3px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px; 
+  transition: all 0.3s ease; 
+}
+textarea:focus {
+  outline: none;
+  border-color: var(--accent-blue);  
+  box-shadow: 0 0 5px var(--accent-blue-light);  
+}
+
+textarea :hover{ 
+  border: 1px solid var(--accent-blue-light) !important; 
+}
+
+ 
+/* Targeting the control (container) */
+.react-select__control {
+  border: 1px solid var(--text);
+  border-radius: 4px;
+}
+
+/* Targeting the focused state of the control */
+.react-select__control--is-focused {
+  box-shadow: 0 0 0 1px var(--black);
+}
+
+/* Targeting the individual option */
+.react-select__option {
+  background-color: var(--white); /* Default background color */
+  color: var(--text); /* Default text color */
+}
+
+/* Targeting the focused state of the option */
+.react-select__option--is-focused {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+/* Targeting the dropdown menu */
+.react-select__menu {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-first-card-h{
+	margin-bottom: 5px;
+  font-size: 16px;
+	color: var(--small-text);  
+}
+.dashboard-first-card-p{
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: var(--text);
+}
+ 
+  
+
+
+form#ticket-form {
+  gap: 0.95rem;
+}
+form#ticket-form,
+form#ticket-form .form-grp {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+form#ticket-form .form-grp_row {
+  display: flex;
+  gap: 1.25rem;
+}
+ 
+form#ticket-form .form-grp_btn {
+  display: flex;
+  justify-content: flex-end;
+}
+ 
+ 

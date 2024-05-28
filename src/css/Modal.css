@@ -1,0 +1,36 @@
+.modal-close{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid var(--border) ;
+	padding-bottom: 1rem;
+	margin-bottom: 2rem;
+}
+
+.modal-content {
+	padding: 1.8rem;
+}
+
+.modal-body { 
+     padding: 0px; 
+}
+.page-btn-title {
+    align-items: center;
+    display: flex!important;
+    justify-content: center!important;
+}
+.custom-btn {
+    background: var(--accent-blue-light)!important;
+}
+
+
+ 
+ 
+/* modal-header-icon */
+.modal-handle-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+
+ 
