@@ -11,7 +11,7 @@ import moment from 'moment';
 
 
 
-const Users = ({ switchs }: any) => {
+const Users = () => {
 	const [limit, setLimit] = useState<any>(8);
 	const [data, setData] = useState<any>([]);
 	const dispatch = useAppDispatch();
